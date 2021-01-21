@@ -112,28 +112,9 @@ h3 {
   color: black;
 }
 
-#talks-btn {
-}
-
-#events-btn {
-}
-
-#workshops-btn {
-}
-
-#start-reg-btn {
-  margin-top: 30px;
-  border-radius: 30px;
-  width: 150px;
-
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#start-reg-btn:hover {
-  background-color: yellow !important;
-  border: solid 1px black !important;
-  color: black;
+#iv-btn {
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 #scroll-btn {
