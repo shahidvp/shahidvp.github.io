@@ -205,7 +205,7 @@ h3 {
   height: auto;
   padding: 2px;
   border-radius: 30px;
-  animation: img-border ease-in 1s infinite;
+  animation: img-border ease-in-out 1s infinite;
 }
 
 @keyframes img-border {
