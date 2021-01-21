@@ -189,8 +189,143 @@ h3 {
   justify-content: center;
 }
 
+.ws-img-holder {
+  display: flex;
+  justify-content: center;
+}
+.ws-img-holder a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 #ws-holder img {
   max-width: 100%;
+  height: auto;
+  padding: 2px;
+  border-radius: 30px;
+  animation: img-border ease-in 1s infinite;
+}
+
+@keyframes img-border {
+  0% {
+    background: linear-gradient(
+      60deg,
+      hsl(224, 85%, 66%),
+      hsl(269, 85%, 66%),
+      hsl(314, 85%, 66%),
+      hsl(359, 85%, 66%),
+      hsl(44, 85%, 66%),
+      hsl(89, 85%, 66%),
+      hsl(134, 85%, 66%),
+      hsl(179, 85%, 66%)
+    );
+  }
+  12.5% {
+    background: linear-gradient(
+      60deg,
+      hsl(269, 85%, 66%),
+      hsl(314, 85%, 66%),
+      hsl(359, 85%, 66%),
+      hsl(44, 85%, 66%),
+      hsl(89, 85%, 66%),
+      hsl(134, 85%, 66%),
+      hsl(179, 85%, 66%),
+      hsl(224, 85%, 66%)
+    );
+  }
+  25% {
+    background: linear-gradient(
+      60deg,
+      hsl(314, 85%, 66%),
+      hsl(359, 85%, 66%),
+      hsl(44, 85%, 66%),
+      hsl(89, 85%, 66%),
+      hsl(134, 85%, 66%),
+      hsl(179, 85%, 66%),
+      hsl(224, 85%, 66%),
+      hsl(269, 85%, 66%)
+    );
+  }
+  37.5% {
+    background: linear-gradient(
+      60deg,
+      hsl(359, 85%, 66%),
+      hsl(44, 85%, 66%),
+      hsl(89, 85%, 66%),
+      hsl(134, 85%, 66%),
+      hsl(179, 85%, 66%),
+      hsl(224, 85%, 66%),
+      hsl(269, 85%, 66%),
+      hsl(314, 85%, 66%)
+    );
+  }
+  50% {
+    background: linear-gradient(
+      60deg,
+      hsl(44, 85%, 66%),
+      hsl(89, 85%, 66%),
+      hsl(134, 85%, 66%),
+      hsl(179, 85%, 66%),
+      hsl(224, 85%, 66%),
+      hsl(269, 85%, 66%),
+      hsl(314, 85%, 66%),
+      hsl(359, 85%, 66%)
+    );
+  }
+  62.5% {
+    background: linear-gradient(
+      60deg,
+      hsl(89, 85%, 66%),
+      hsl(134, 85%, 66%),
+      hsl(179, 85%, 66%),
+      hsl(224, 85%, 66%),
+      hsl(269, 85%, 66%),
+      hsl(314, 85%, 66%),
+      hsl(359, 85%, 66%),
+      hsl(44, 85%, 66%)
+    );
+  }
+  75% {
+    background: linear-gradient(
+      60deg,
+      hsl(134, 85%, 66%),
+      hsl(179, 85%, 66%),
+      hsl(224, 85%, 66%),
+      hsl(269, 85%, 66%),
+      hsl(314, 85%, 66%),
+      hsl(359, 85%, 66%),
+      hsl(44, 85%, 66%),
+      hsl(89, 85%, 66%)
+    );
+  }
+  87.5% {
+    background: linear-gradient(
+      60deg,
+      hsl(179, 85%, 66%),
+      hsl(224, 85%, 66%),
+      hsl(269, 85%, 66%),
+      hsl(314, 85%, 66%),
+      hsl(359, 85%, 66%),
+      hsl(44, 85%, 66%),
+      hsl(89, 85%, 66%),
+      hsl(134, 85%, 66%)
+    );
+  }
+  100% {
+    background: linear-gradient(
+      60deg,
+      hsl(224, 85%, 66%),
+      hsl(269, 85%, 66%),
+      hsl(314, 85%, 66%),
+      hsl(359, 85%, 66%),
+      hsl(44, 85%, 66%),
+      hsl(89, 85%, 66%),
+      hsl(134, 85%, 66%),
+      hsl(179, 85%, 66%)
+    );
+  }
 }
 
 #ws-holder h5 {
@@ -244,8 +379,7 @@ h3 {
     grid-template-columns: 1fr;
   }
   #ws-holder img {
-    padding-left: 10%;
-    padding-right: 10%;
+    width: 70%;
   }
   .ws-reg {
     font-size: 1.3rem !important;
