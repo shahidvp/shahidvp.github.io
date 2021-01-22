@@ -219,7 +219,8 @@ h3 {
   animation: img-border ease-in-out 1s infinite;
 }
 
-#ws-holder img:hover {
+#ws-holder img:hover,
+#es-holder img:hover {
   animation: none;
   background: white;
 }
