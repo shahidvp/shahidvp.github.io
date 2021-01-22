@@ -210,121 +210,40 @@ h3 {
 
 @keyframes img-border {
   0% {
-    background: linear-gradient(
-      60deg,
-      hsl(224, 85%, 66%),
-      hsl(269, 85%, 66%),
-      hsl(314, 85%, 66%),
-      hsl(359, 85%, 66%),
-      hsl(44, 85%, 66%),
-      hsl(89, 85%, 66%),
-      hsl(134, 85%, 66%),
-      hsl(179, 85%, 66%)
-    );
+    background: linear-gradient(60deg, black, white);
   }
-  12.5% {
-    background: linear-gradient(
-      60deg,
-      hsl(269, 85%, 66%),
-      hsl(314, 85%, 66%),
-      hsl(359, 85%, 66%),
-      hsl(44, 85%, 66%),
-      hsl(89, 85%, 66%),
-      hsl(134, 85%, 66%),
-      hsl(179, 85%, 66%),
-      hsl(224, 85%, 66%)
-    );
+  9.1% {
+    background: linear-gradient(90deg, black, white);
   }
-  25% {
-    background: linear-gradient(
-      60deg,
-      hsl(314, 85%, 66%),
-      hsl(359, 85%, 66%),
-      hsl(44, 85%, 66%),
-      hsl(89, 85%, 66%),
-      hsl(134, 85%, 66%),
-      hsl(179, 85%, 66%),
-      hsl(224, 85%, 66%),
-      hsl(269, 85%, 66%)
-    );
+  18.2% {
+    background: linear-gradient(120deg, black, white);
   }
-  37.5% {
-    background: linear-gradient(
-      60deg,
-      hsl(359, 85%, 66%),
-      hsl(44, 85%, 66%),
-      hsl(89, 85%, 66%),
-      hsl(134, 85%, 66%),
-      hsl(179, 85%, 66%),
-      hsl(224, 85%, 66%),
-      hsl(269, 85%, 66%),
-      hsl(314, 85%, 66%)
-    );
+  27.3% {
+    background: linear-gradient(150deg, black, white);
   }
-  50% {
-    background: linear-gradient(
-      60deg,
-      hsl(44, 85%, 66%),
-      hsl(89, 85%, 66%),
-      hsl(134, 85%, 66%),
-      hsl(179, 85%, 66%),
-      hsl(224, 85%, 66%),
-      hsl(269, 85%, 66%),
-      hsl(314, 85%, 66%),
-      hsl(359, 85%, 66%)
-    );
+  36.4% {
+    background: linear-gradient(180deg, black, white);
   }
-  62.5% {
-    background: linear-gradient(
-      60deg,
-      hsl(89, 85%, 66%),
-      hsl(134, 85%, 66%),
-      hsl(179, 85%, 66%),
-      hsl(224, 85%, 66%),
-      hsl(269, 85%, 66%),
-      hsl(314, 85%, 66%),
-      hsl(359, 85%, 66%),
-      hsl(44, 85%, 66%)
-    );
+  45.5% {
+    background: linear-gradient(210deg, black, white);
   }
-  75% {
-    background: linear-gradient(
-      60deg,
-      hsl(134, 85%, 66%),
-      hsl(179, 85%, 66%),
-      hsl(224, 85%, 66%),
-      hsl(269, 85%, 66%),
-      hsl(314, 85%, 66%),
-      hsl(359, 85%, 66%),
-      hsl(44, 85%, 66%),
-      hsl(89, 85%, 66%)
-    );
+  54.6% {
+    background: linear-gradient(240deg, black, white);
   }
-  87.5% {
-    background: linear-gradient(
-      60deg,
-      hsl(179, 85%, 66%),
-      hsl(224, 85%, 66%),
-      hsl(269, 85%, 66%),
-      hsl(314, 85%, 66%),
-      hsl(359, 85%, 66%),
-      hsl(44, 85%, 66%),
-      hsl(89, 85%, 66%),
-      hsl(134, 85%, 66%)
-    );
+  63.7% {
+    background: linear-gradient(270deg, black, white);
+  }
+  72.8% {
+    background: linear-gradient(300deg, black, white);
+  }
+  81.9% {
+    background: linear-gradient(330deg, black, white);
+  }
+  91% {
+    background: linear-gradient(360deg, black, white);
   }
   100% {
-    background: linear-gradient(
-      60deg,
-      hsl(224, 85%, 66%),
-      hsl(269, 85%, 66%),
-      hsl(314, 85%, 66%),
-      hsl(359, 85%, 66%),
-      hsl(44, 85%, 66%),
-      hsl(89, 85%, 66%),
-      hsl(134, 85%, 66%),
-      hsl(179, 85%, 66%)
-    );
+    background: linear-gradient(30deg, black, white);
   }
 }
 
@@ -347,6 +266,63 @@ h3 {
   color: aliceblue;
   text-decoration: none;
 }
+
+#e-iv {
+  width: 100%;
+}
+#e-iv h1 {
+  text-align: center;
+  font-size: 4rem;
+  color: aliceblue;
+}
+
+#e-iv-holder {
+  display: flex;
+  justify-content: center;
+}
+.e-iv-card {
+  flex: 50%;
+}
+.e-iv-card a {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.e-iv-card img {
+  max-width: 75%;
+  height: auto;
+}
+
+#events-section h1 {
+  text-align: center;
+  font-size: 4rem;
+  color: aliceblue;
+}
+
+#es-holder {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-left: 5%;
+  padding-right: 5%;
+  grid-gap: 20px;
+  margin-top: 30px;
+
+  justify-content: center;
+}
+.es-img a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+#es-holder img {
+  max-width: 100%;
+  height: auto;
+  padding: 2px;
+  border-radius: 30px;
+  animation: img-border ease-in-out 1s infinite;
+}
+
 @media screen and (max-width: 1100px) {
   html {
     font-size: 85%;
@@ -383,5 +359,9 @@ h3 {
   }
   .ws-reg {
     font-size: 1.3rem !important;
+  }
+
+  #e-iv-holder {
+    flex-direction: column;
   }
 }
