@@ -372,6 +372,12 @@ h3 {
     margin-left: 0;
     margin-right: 0;
   }
+
+  #talks-btn {
+    display: inline-block !important;
+    visibility: hidden;
+  }
+
   #ws-holder {
     grid-template-columns: 1fr;
   }
