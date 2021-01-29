@@ -1,0 +1,9 @@
+table {
+  font-size: 1.5rem;
+}
+table th {
+  font-size: 1.8rem;
+}
+table td {
+  padding-right: 20px;
+}
