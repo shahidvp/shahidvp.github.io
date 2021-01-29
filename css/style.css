@@ -341,6 +341,23 @@ h3 {
   animation: img-border ease-in-out 1s infinite;
 }
 
+#sm-holder {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.sm-id {
+  text-align: center;
+  color: white;
+  font-size: 1.3rem;
+}
+.sm-id a {
+  text-align: center;
+  color: aliceblue;
+}
+
 @media screen and (max-width: 1100px) {
   html {
     font-size: 85%;
