@@ -171,7 +171,8 @@ h3 {
   height: 100% !important;
 }
 
-#workshops-main h1 {
+#workshops-main h1,
+#talks-section h1 {
   text-align: center;
   font-size: 4rem;
   color: aliceblue;
@@ -341,6 +342,29 @@ h3 {
   animation: img-border ease-in-out 1s infinite;
 }
 
+#talks-section {
+  width: 100%;
+  height: auto;
+}
+
+#talks-holder {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.talks-img {
+  display: flex;
+  justify-content: center;
+}
+
+.talks-img img {
+  max-width: 60%;
+  height: auto;
+}
+
 #sm-holder {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -390,11 +414,6 @@ h3 {
     margin-right: 0;
   }
 
-  #talks-btn {
-    display: inline-block !important;
-    visibility: hidden;
-  }
-
   #ws-holder {
     grid-template-columns: 1fr;
   }
@@ -419,5 +438,9 @@ h3 {
   }
   #es-holder img {
     width: 70%;
+  }
+  .talks-img img {
+    max-width: 80%;
+    height: auto;
   }
 }
