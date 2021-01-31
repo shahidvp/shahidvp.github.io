@@ -372,6 +372,13 @@ h3 {
   height: auto;
 }
 
+#talks-more {
+  max-width: 30%;
+  border-radius: 30px;
+  animation: img-border ease-in-out 1s infinite;
+  padding: 2px;
+}
+
 #about-us {
   color: white;
 }
@@ -393,13 +400,12 @@ h3 {
 #awards-holder {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-column-gap: 20px;
+  grid-gap: 20px;
   padding-left: 20px;
   padding-right: 20px;
 }
 #awards-holder > div > img {
   max-width: 100%;
-  margin-top: 20px;
 }
 #sm-holder {
   display: grid;
@@ -432,6 +438,9 @@ h3 {
 
   #awards-holder {
     grid-template-columns: 1fr 1fr;
+  }
+  #talks-more {
+    max-width: 40%;
   }
 }
 
@@ -493,5 +502,10 @@ h3 {
 
   #awards-holder {
     grid-template-columns: 1fr;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  #talks-more {
+    max-width: 50%;
   }
 }
