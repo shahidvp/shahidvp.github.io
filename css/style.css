@@ -372,6 +372,35 @@ h3 {
   height: auto;
 }
 
+#about-us {
+  color: white;
+}
+
+#about-us h1 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+#about-us p {
+  font-size: 1.3rem;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+#about-us h3 {
+  font-size: 2.5rem;
+}
+#awards-holder {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#awards-holder > div > img {
+  max-width: 100%;
+  margin-top: 20px;
+}
 #sm-holder {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -398,6 +427,10 @@ h3 {
     grid-template-columns: 1fr 1fr;
   }
   #es-holder {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #awards-holder {
     grid-template-columns: 1fr 1fr;
   }
 }
@@ -451,5 +484,14 @@ h3 {
   .talks-img img {
     max-width: 80%;
     height: auto;
+  }
+
+  #about-us p {
+    margin-left: 8%;
+    margin-right: 8%;
+  }
+
+  #awards-holder {
+    grid-template-columns: 1fr;
   }
 }
