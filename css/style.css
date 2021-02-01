@@ -113,8 +113,6 @@ h3 {
 }
 
 #iv-btn {
-  padding-top: 10px;
-  padding-bottom: 10px;
 }
 
 #scroll-btn {
@@ -379,6 +377,27 @@ h3 {
   padding: 2px;
 }
 
+#college {
+  color: white;
+}
+#college img {
+  max-width: 100%;
+  padding-left: 30px;
+}
+#college-holder {
+  display: flex;
+  width: 100%;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+#college-holder div {
+  flex: 50%;
+}
+
+#college p {
+  font-size: 1.3rem;
+  text-align: justify;
+}
 #about-us {
   color: white;
 }
@@ -392,6 +411,7 @@ h3 {
   font-size: 1.3rem;
   margin-left: 20%;
   margin-right: 20%;
+  text-align: justify;
 }
 
 #about-us h3 {
@@ -441,6 +461,21 @@ h3 {
   }
   #talks-more {
     max-width: 40%;
+  }
+
+  #college img {
+    max-width: 80%;
+    padding-left: auto;
+  }
+  #college-holder p {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  #college-holder {
+    display: flex;
+    flex-direction: column;
+    padding-left: auto;
+    padding-right: auto;
   }
 }
 
