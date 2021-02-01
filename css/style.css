@@ -172,6 +172,21 @@ h3 {
   margin-right: auto;
 }
 
+#champions {
+  display: flex;
+  width: 100%;
+}
+#champions div {
+  flex: 50%;
+  display: flex;
+  justify-content: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#champions img {
+  max-width: 70%;
+}
+
 #workshops-main {
   height: 100% !important;
 }
@@ -481,6 +496,14 @@ h3 {
     padding-left: auto;
     padding-right: auto;
   }
+
+  #champions div {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  #champions img {
+    max-width: 90%;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -547,8 +570,11 @@ h3 {
   #talks-more {
     max-width: 50%;
   }
-  table {
-    font-size: 1.3rem;
-    min-width: 80%;
+  #champions {
+    flex-direction: column;
+  }
+  #champions img {
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 }
