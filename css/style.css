@@ -175,7 +175,7 @@ h3 {
 #details-btn-holder {
   display: flex;
   width: 100%;
-  gap: 17%;
+  gap: 10%;
   justify-content: center;
 }
 
@@ -587,5 +587,9 @@ h3 {
   #champions img {
     margin-top: 10px;
     margin-bottom: 10px;
+  }
+
+  #details-btn-holder {
+    gap: 20px;
   }
 }
