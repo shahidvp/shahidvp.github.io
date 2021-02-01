@@ -172,6 +172,17 @@ h3 {
   margin-right: auto;
 }
 
+#details-btn-holder {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  justify-content: center;
+}
+
+#details-btn-holder a {
+  justify-self: center;
+}
+
 #champions {
   display: flex;
   width: 100%;
