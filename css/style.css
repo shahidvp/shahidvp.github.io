@@ -547,4 +547,8 @@ h3 {
   #talks-more {
     max-width: 50%;
   }
+  table {
+    font-size: 1.3rem;
+    min-width: 80%;
+  }
 }
