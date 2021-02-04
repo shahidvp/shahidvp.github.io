@@ -217,8 +217,16 @@ h3 {
 }
 
 #input-id input {
+  color: aliceblue;
   height: 2.5rem;
   width: 25rem;
+  border-radius: 5px;
+  padding-left: 10px;
+  border: solid 1px white;
+  background: none;
+}
+#input-id input::placeholder {
+  font-weight: 600;
 }
 
 #champions {
@@ -664,5 +672,8 @@ h3 {
   }
   #mun figcaption {
     max-width: 80%;
+  }
+  #input-id input {
+    width: 20rem;
   }
 }
