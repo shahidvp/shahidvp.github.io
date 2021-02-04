@@ -118,3 +118,26 @@ particlesJS(
     },
   }
 );
+
+var input = document.getElementById("email");
+
+input.addEventListener("keyup", function (event) {
+  if (event.keyCode === 13) {
+    event.preventDefault();
+    document.getElementById("submit-btn").click();
+  }
+});
+
+const certs = {
+  "nikhilsiva077@gmail.com":
+    "https://drive.google.com/file/d/15ET80vee-vJkB1vZRbKdxCNqHXmW4j2G/view?usp=sharing",
+};
+
+function jump() {
+  var x = document.getElementById("email").value;
+  if (certs.hasOwnProperty(x)) {
+    window.open(certs[x]);
+  } else {
+    alert("Enter Your Registered Email ID");
+  }
+}
